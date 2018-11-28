@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6808B09A21AE8A1A00AD07F0 /* Enlightenment.framework in Resources */ = {isa = PBXBuildFile; fileRef = 689064D221AE86F9008CDD2F /* Enlightenment.framework */; };
+		6820AF6321AED599002CD4D0 /* KJFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6820AF6221AED599002CD4D0 /* KJFramework.framework */; };
+		6820AF6421AED5D1002CD4D0 /* KJFramework.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6820AF6221AED599002CD4D0 /* KJFramework.framework */; };
 		689064BE21AE86DB008CDD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689064BD21AE86DB008CDD2F /* AppDelegate.m */; };
 		689064C621AE86DC008CDD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689064C521AE86DC008CDD2F /* Assets.xcassets */; };
 		689064C921AE86DC008CDD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689064C721AE86DC008CDD2F /* LaunchScreen.storyboard */; };
 		689064CC21AE86DC008CDD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689064CB21AE86DC008CDD2F /* main.m */; };
-		689064D321AE86F9008CDD2F /* Enlightenment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689064D221AE86F9008CDD2F /* Enlightenment.framework */; };
 		76C1C2C79A2578FF87D95C9B /* libPods-启蒙儿童画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6C81B4B891C1AE64878A5 /* libPods-启蒙儿童画.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62AEA17303FF2790F5DF9274 /* Pods-启蒙儿童画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启蒙儿童画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画.debug.xcconfig"; sourceTree = "<group>"; };
+		6820AF6221AED599002CD4D0 /* KJFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KJFramework.framework; sourceTree = "<group>"; };
 		689064B921AE86DB008CDD2F /* 启蒙儿童画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "启蒙儿童画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		689064BC21AE86DB008CDD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		689064BD21AE86DB008CDD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		689064C821AE86DC008CDD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689064CA21AE86DC008CDD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689064CB21AE86DC008CDD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		689064D221AE86F9008CDD2F /* Enlightenment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Enlightenment.framework; sourceTree = "<group>"; };
 		77E0F32FD595A1190D7BD80B /* Pods-启蒙儿童画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启蒙儿童画.release.xcconfig"; path = "Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画.release.xcconfig"; sourceTree = "<group>"; };
 		F7D6C81B4B891C1AE64878A5 /* libPods-启蒙儿童画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-启蒙儿童画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689064D321AE86F9008CDD2F /* Enlightenment.framework in Frameworks */,
+				6820AF6321AED599002CD4D0 /* KJFramework.framework in Frameworks */,
 				76C1C2C79A2578FF87D95C9B /* libPods-启蒙儿童画.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +64,7 @@
 		689064BB21AE86DB008CDD2F /* abc */ = {
 			isa = PBXGroup;
 			children = (
-				689064D221AE86F9008CDD2F /* Enlightenment.framework */,
+				6820AF6221AED599002CD4D0 /* KJFramework.framework */,
 				689064BC21AE86DB008CDD2F /* AppDelegate.h */,
 				689064BD21AE86DB008CDD2F /* AppDelegate.m */,
 				689064C521AE86DC008CDD2F /* Assets.xcassets */,
@@ -151,7 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6808B09A21AE8A1A00AD07F0 /* Enlightenment.framework in Resources */,
+				6820AF6421AED5D1002CD4D0 /* KJFramework.framework in Resources */,
 				689064C921AE86DC008CDD2F /* LaunchScreen.storyboard in Resources */,
 				689064C621AE86DC008CDD2F /* Assets.xcassets in Resources */,
 			);
