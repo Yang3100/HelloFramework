@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FrameworkFileViewController">
+            <connections>
+                <outlet property="imageView" destination="CuT-rH-1Tz" id="9MW-1t-jDN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiaotiaosu.png" translatesAutoresizingMaskIntoConstraints="NO" id="CuT-rH-1Tz">
+                    <rect key="frame" x="50" y="70" width="275" height="275"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CuT-rH-1Tz" secondAttribute="height" multiplier="1:1" id="YhM-9v-gcA"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urt-vr-FJr">
+                    <rect key="frame" x="50" y="395" width="275" height="40"/>
+                    <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="IX5-tg-xEL"/>
+                    </constraints>
+                    <state key="normal" title="更换图片">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="changeImage:" destination="-1" eventType="touchUpInside" id="nz3-mD-MhY"/>
+                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="kSE-iW-W5p"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOm-4u-4hd">
+                    <rect key="frame" x="50" y="485" width="275" height="40"/>
+                    <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="kmj-0b-i3K"/>
+                    </constraints>
+                    <state key="normal" title="Dismiss">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="nqh-as-HeR"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fYY-Gi-y7y">
+                    <rect key="frame" x="141.5" y="555" width="92" height="92"/>
+                    <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fYY-Gi-y7y" secondAttribute="height" multiplier="1:1" id="ijh-nS-MeD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CuT-rH-1Tz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7tV-2W-OYJ"/>
+                <constraint firstItem="urt-vr-FJr" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="MNS-hh-2AX"/>
+                <constraint firstItem="fYY-Gi-y7y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Nae-Ij-d8e"/>
+                <constraint firstItem="kOm-4u-4hd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QQ4-dT-yXZ"/>
+                <constraint firstItem="kOm-4u-4hd" firstAttribute="height" secondItem="urt-vr-FJr" secondAttribute="height" id="TFs-gm-WJI"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="urt-vr-FJr" secondAttribute="trailing" constant="50" id="VRe-Rb-WmS"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="CuT-rH-1Tz" secondAttribute="trailing" constant="50" id="d4v-zR-laC"/>
+                <constraint firstItem="kOm-4u-4hd" firstAttribute="top" secondItem="urt-vr-FJr" secondAttribute="bottom" constant="50" id="dF4-q5-nGJ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="fYY-Gi-y7y" secondAttribute="bottom" constant="20" id="gJx-0v-Kzv"/>
+                <constraint firstItem="CuT-rH-1Tz" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="hDw-HN-IqC"/>
+                <constraint firstItem="urt-vr-FJr" firstAttribute="top" secondItem="CuT-rH-1Tz" secondAttribute="bottom" constant="50" id="pS3-3z-FXb"/>
+                <constraint firstItem="kOm-4u-4hd" firstAttribute="width" secondItem="urt-vr-FJr" secondAttribute="width" id="rej-vI-kQ4"/>
+                <constraint firstItem="CuT-rH-1Tz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="sIj-ce-lwt"/>
+                <constraint firstItem="fYY-Gi-y7y" firstAttribute="top" secondItem="kOm-4u-4hd" secondAttribute="bottom" constant="30" id="w7Y-WY-05W"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="67.916041979010501"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tiaotiaosu.png" width="624" height="600"/>
+    </resources>
+</document>

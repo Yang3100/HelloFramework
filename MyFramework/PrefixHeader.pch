@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  HelloFramework
+//
+//  Created by 杨科军 on 2018/11/28.
+//  Copyright © 2018 杨科军. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define GetBundleImage(imageName) ([NSString stringWithFormat:@"MyFramework.framework/KJFramework.bundle/%@",imageName])
+#define GetNibName(fileName)  [NSString stringWithFormat:@"MyFramework.framework/%@",fileName]
+
+#endif /* PrefixHeader_pch */
