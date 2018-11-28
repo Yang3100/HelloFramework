@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '启蒙儿童画' do
+
+inhibit_all_warnings!  #禁止所有警告
+#########  Tool  #########
+pod 'YYKit'   # YYKit
+pod 'Masonry'  #自动布局
+pod 'IQKeyboardManager'  #键盘管理
+pod 'MBProgressHUD’ # 指示器
+pod 'MJRefresh'  # 刷新
+
+#########  UIKit  #########
+pod 'CHTCollectionViewWaterfallLayout'   # 瀑布流
+
+end

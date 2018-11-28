@@ -1,0 +1,6 @@
+framework module Enlightenment {
+  umbrella header "Enlightenment.h"
+
+  export *
+  module * { export * }
+}
