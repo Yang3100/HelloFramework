@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6820AF6321AED599002CD4D0 /* KJFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6820AF6221AED599002CD4D0 /* KJFramework.framework */; };
+		6820AF6421AED5D1002CD4D0 /* KJFramework.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6820AF6221AED599002CD4D0 /* KJFramework.framework */; };
+		689064BE21AE86DB008CDD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689064BD21AE86DB008CDD2F /* AppDelegate.m */; };
+		689064C621AE86DC008CDD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689064C521AE86DC008CDD2F /* Assets.xcassets */; };
+		689064C921AE86DC008CDD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689064C721AE86DC008CDD2F /* LaunchScreen.storyboard */; };
+		689064CC21AE86DC008CDD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689064CB21AE86DC008CDD2F /* main.m */; };
+		76C1C2C79A2578FF87D95C9B /* libPods-启蒙儿童画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6C81B4B891C1AE64878A5 /* libPods-启蒙儿童画.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		62AEA17303FF2790F5DF9274 /* Pods-启蒙儿童画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启蒙儿童画.debug.xcconfig"; path = "Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画.debug.xcconfig"; sourceTree = "<group>"; };
+		6820AF6221AED599002CD4D0 /* KJFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KJFramework.framework; sourceTree = "<group>"; };
+		689064B921AE86DB008CDD2F /* 启蒙儿童画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "启蒙儿童画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689064BC21AE86DB008CDD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689064BD21AE86DB008CDD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689064C521AE86DC008CDD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689064C821AE86DC008CDD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689064CA21AE86DC008CDD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689064CB21AE86DC008CDD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77E0F32FD595A1190D7BD80B /* Pods-启蒙儿童画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-启蒙儿童画.release.xcconfig"; path = "Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画.release.xcconfig"; sourceTree = "<group>"; };
+		F7D6C81B4B891C1AE64878A5 /* libPods-启蒙儿童画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-启蒙儿童画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689064B621AE86DB008CDD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6820AF6321AED599002CD4D0 /* KJFramework.framework in Frameworks */,
+				76C1C2C79A2578FF87D95C9B /* libPods-启蒙儿童画.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689064B021AE86DB008CDD2F = {
+			isa = PBXGroup;
+			children = (
+				689064BB21AE86DB008CDD2F /* abc */,
+				689064BA21AE86DB008CDD2F /* Products */,
+				BAB4CC1EB7485C258633704F /* Pods */,
+				795F12872868C103419186AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		689064BA21AE86DB008CDD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689064B921AE86DB008CDD2F /* 启蒙儿童画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689064BB21AE86DB008CDD2F /* abc */ = {
+			isa = PBXGroup;
+			children = (
+				6820AF6221AED599002CD4D0 /* KJFramework.framework */,
+				689064BC21AE86DB008CDD2F /* AppDelegate.h */,
+				689064BD21AE86DB008CDD2F /* AppDelegate.m */,
+				689064C521AE86DC008CDD2F /* Assets.xcassets */,
+				689064C721AE86DC008CDD2F /* LaunchScreen.storyboard */,
+				689064CA21AE86DC008CDD2F /* Info.plist */,
+				689064CB21AE86DC008CDD2F /* main.m */,
+			);
+			path = abc;
+			sourceTree = "<group>";
+		};
+		795F12872868C103419186AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D6C81B4B891C1AE64878A5 /* libPods-启蒙儿童画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB4CC1EB7485C258633704F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62AEA17303FF2790F5DF9274 /* Pods-启蒙儿童画.debug.xcconfig */,
+				77E0F32FD595A1190D7BD80B /* Pods-启蒙儿童画.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689064B821AE86DB008CDD2F /* 启蒙儿童画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689064CF21AE86DC008CDD2F /* Build configuration list for PBXNativeTarget "启蒙儿童画" */;
+			buildPhases = (
+				DD460FDC651F127A25012897 /* [CP] Check Pods Manifest.lock */,
+				689064B521AE86DB008CDD2F /* Sources */,
+				689064B621AE86DB008CDD2F /* Frameworks */,
+				689064B721AE86DB008CDD2F /* Resources */,
+				4B4169EBFD0DFD4985CE3966 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "启蒙儿童画";
+			productName = abc;
+			productReference = 689064B921AE86DB008CDD2F /* 启蒙儿童画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689064B121AE86DB008CDD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "杨科军";
+				TargetAttributes = {
+					689064B821AE86DB008CDD2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 689064B421AE86DB008CDD2F /* Build configuration list for PBXProject "启蒙儿童画" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689064B021AE86DB008CDD2F;
+			productRefGroup = 689064BA21AE86DB008CDD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689064B821AE86DB008CDD2F /* 启蒙儿童画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689064B721AE86DB008CDD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6820AF6421AED5D1002CD4D0 /* KJFramework.framework in Resources */,
+				689064C921AE86DC008CDD2F /* LaunchScreen.storyboard in Resources */,
+				689064C621AE86DC008CDD2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4169EBFD0DFD4985CE3966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-启蒙儿童画/Pods-启蒙儿童画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD460FDC651F127A25012897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-启蒙儿童画-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689064B521AE86DB008CDD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689064CC21AE86DC008CDD2F /* main.m in Sources */,
+				689064BE21AE86DB008CDD2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		689064C721AE86DC008CDD2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689064C821AE86DC008CDD2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689064CD21AE86DC008CDD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689064CE21AE86DC008CDD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689064D021AE86DC008CDD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AEA17303FF2790F5DF9274 /* Pods-启蒙儿童画.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/abc",
+				);
+				INFOPLIST_FILE = abc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.abc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		689064D121AE86DC008CDD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E0F32FD595A1190D7BD80B /* Pods-启蒙儿童画.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH48VHTX9R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/abc",
+				);
+				INFOPLIST_FILE = abc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.abc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689064B421AE86DB008CDD2F /* Build configuration list for PBXProject "启蒙儿童画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689064CD21AE86DC008CDD2F /* Debug */,
+				689064CE21AE86DC008CDD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689064CF21AE86DC008CDD2F /* Build configuration list for PBXNativeTarget "启蒙儿童画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689064D021AE86DC008CDD2F /* Debug */,
+				689064D121AE86DC008CDD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689064B121AE86DB008CDD2F /* Project object */;
+}

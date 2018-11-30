@@ -1,6 +1,0 @@
-framework module KJFramework {
-  umbrella header "KJFramework.h"
-
-  export *
-  module * { export * }
-}
